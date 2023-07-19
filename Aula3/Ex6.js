@@ -9,3 +9,13 @@ while (n < 20 && n >= 0 ){
     n += 2
     console.log(n)
 }
+
+
+// while (n < 20){
+//     if ( n % 2 == 0){
+//         console.log(n)
+        
+//     }
+    
+//     n ++
+// }

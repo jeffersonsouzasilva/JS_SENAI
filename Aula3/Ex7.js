@@ -2,8 +2,13 @@
 
 let prompt = require("prompt-sync")();
 
-n = 0
-while (n < 100 && n >= 0 ){
-    n += 1
-    console.log(n)
+let n = 0
+let soma = 0
+
+while (n <= 100 && n >= 0 ){
+
+    soma = soma + n
+    console.log(soma)
+    
+    n ++
 }
